@@ -1,0 +1,5 @@
+This python subdomainScanner application scans the subdomains of awesomeweb/ ie menu, about,contactus,our services and prints if its up or down.
+
+The application imports and uses requests module. It iterates through each subdomain in a loop in function domain_scanner. 
+The function domain_scanner takes domain name and array of subdomain names as arguements,build url in a loop and
+send http req to the webserver. If successful, the function prints UP and if not then prints down.
